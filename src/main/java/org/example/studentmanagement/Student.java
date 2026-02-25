@@ -10,11 +10,11 @@ public class Student {
 
   private String id;
   private String name;
-  public String furigana;
-  public String nickName;
-  public String email;
-  public String area;
-  public String age;
-  public String gender;
+  private String furigana;
+  private String nickName;
+  private String email;
+  private String area;
+  private String age;
+  private String gender;
 
 }

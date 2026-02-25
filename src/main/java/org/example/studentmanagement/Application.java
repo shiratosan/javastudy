@@ -28,4 +28,4 @@ public class Application {
   }
 
 }
-//課題提出用
+
