@@ -1,4 +1,4 @@
-package org.example.studentmanagement;
+package date;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -16,5 +16,6 @@ public class Student {
   private String area;
   private int age;
   private String gender;
+  private String courseName;
 
 }
