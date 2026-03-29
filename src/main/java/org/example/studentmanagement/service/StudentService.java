@@ -46,17 +46,17 @@ public class StudentService {
     return result30s;
   }
 
-  public List<Student> searchStudentjavacourse() {
+  public List<Student> searchStudentJavaCourse() {
     List<Student> allStudents = repository.searchStudentCourseList();
 
-    List<Student> resultjavacourse = new ArrayList<>();
+    List<Student> resultJavaCourse = new ArrayList<>();
 
     for (Student student : allStudents) {
       if ("Javaコース".equals(student.getCourseName())) {
-        resultjavacourse.add(student);
+        resultJavaCourse.add(student);
       }
     }
-return resultjavacourse;
+return resultJavaCourse;
 
   }
 

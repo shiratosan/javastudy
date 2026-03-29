@@ -1,11 +1,11 @@
 package org.example.studentmanagement.controller;
 
 import date.Student;
+import java.util.List;
 import org.example.studentmanagement.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import java.util.List;
 
 @RestController
 public class StudentController {
@@ -35,6 +35,6 @@ public class StudentController {
 
   @GetMapping("/students/javacourse")
   public List<Student> getStudentjavacourse() {
-    return service.searchStudentjavacourse();
+    return service.searchStudentJavaCourse();
   }
 }
