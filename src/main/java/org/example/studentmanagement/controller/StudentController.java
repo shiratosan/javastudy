@@ -34,7 +34,7 @@ public class StudentController {
 
 
   @GetMapping("/students/javacourse")
-  public List<Student> getStudentjavacourse() {
+  public List<Student> getStudentJavaCourse() {
     return service.searchStudentJavaCourse();
   }
 }
